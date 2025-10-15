@@ -1,0 +1,181 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "close": "Close"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phoneNumber": "Phone Number"
+  },
+  "business": {
+    "name": "Business Name",
+    "slug": "Business URL",
+    "description": "Description",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "website": "Website",
+    "logo": "Logo",
+    "slogan": "Slogan",
+    "registerBusiness": "Register Business",
+    "businessProfile": "Business Profile",
+    "updateProfile": "Update Profile"
+  },
+  "roles": {
+    "client": "Client",
+    "employee": "Employee",
+    "manager": "Manager",
+    "owner": "Owner"
+  },
+  "appointments": {
+    "title": "Appointments",
+    "bookAppointment": "Book Appointment",
+    "appointmentCalendar": "Appointment Calendar",
+    "status": {
+      "provisional": "Provisional",
+      "confirmed": "Confirmed",
+      "cancelled": "Cancelled",
+      "completed": "Completed"
+    },
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "notes": "Notes",
+    "clientNotes": "Client Notes",
+    "service": "Service"
+  },
+  "employees": {
+    "title": "Employees",
+    "addEmployee": "Add Employee",
+    "employeeProfile": "Employee Profile",
+    "availability": "Availability",
+    "portfolio": "Portfolio",
+    "bio": "Bio",
+    "specialties": "Specialties",
+    "isActive": "Active"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "overview": "Overview",
+    "statistics": "Statistics",
+    "recentAppointments": "Recent Appointments",
+    "upcomingAppointments": "Upcoming Appointments",
+    "welcome": "Welcome, {name}!",
+    "quickActions": {
+      "calendar": "View calendar",
+      "employees": "Manage employees",
+      "profile": "View profile",
+      "settings": "Settings"
+    },
+    "stats": {
+      "todayAppointments": "Today's Appointments",
+      "totalEmployees": "Total Employees",
+      "monthlyRevenue": "Monthly Revenue",
+      "avgAppointmentTime": "Avg Appointment Time"
+    },
+    "noAppointments": "No recent appointments"
+  },
+  "subscription": {
+    "title": "Subscription",
+    "plans": "Plans",
+    "free": "Free",
+    "premium": "Premium",
+    "upgrade": "Upgrade",
+    "downgrade": "Downgrade",
+    "billingHistory": "Billing History",
+    "paymentMethod": "Payment Method"
+  },
+  "profile": {
+    "title": "Profile",
+    "personalInfo": "Personal Information",
+    "contactInfo": "Contact Information",
+    "preferences": "Preferences"
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "notifications": "Notifications",
+    "privacy": "Privacy"
+  },
+  "favorites": {
+    "title": "Favorites",
+    "favoriteBusinesses": "Favorite Businesses",
+    "favoriteEmployees": "Favorite Employees",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites"
+  },
+  "hero": {
+    "title": "Manage your business with ease",
+    "subtitle": "Multi-tenant platform for appointment and service management. Perfect for barber shops, salons, workshops and more.",
+    "getStarted": "Get Started Free",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Key Features",
+    "subtitle": "Everything you need to manage your service business",
+    "multiTenant": {
+      "title": "Multi-tenant",
+      "description": "Each business has its own isolated and customizable space"
+    },
+    "roleManagement": {
+      "title": "Role Management",
+      "description": "Client, Employee, Manager and Owner with specific permissions"
+    },
+    "availability": {
+      "title": "Availability",
+      "description": "Manage schedules and employee availability easily"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "description": "Complete dashboard with business statistics and metrics"
+    },
+    "security": {
+      "title": "Security",
+      "description": "Secure authentication with Clerk and data isolation"
+    }
+  },
+  "pricing": {
+    "title": "Pricing Plans",
+    "subtitle": "Choose the plan that best fits your business",
+    "free": {
+      "description": "Perfect to get started",
+      "features": {
+        "employees": "Up to 25 employees",
+        "managers": "Up to 2 managers",
+        "features": "All core features",
+        "support": "Email support"
+      },
+      "button": "Get Started Free"
+    },
+    "premium": {
+      "description": "For growing businesses",
+      "features": {
+        "employees": "Unlimited employees",
+        "noAds": "No advertisements",
+        "noBranding": "No BookItNow branding",
+        "prioritySupport": "Priority support"
+      },
+      "button": "Upgrade to Premium"
+    }
+  },
+  "footer": {
+    "description": "The most complete platform for appointment and service management",
+    "rights": "All rights reserved"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "add": "Agregar",
+    "search": "Buscar",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "confirm": "Confirmar",
+    "yes": "Sí",
+    "no": "No",
+    "close": "Cerrar"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión",
+    "register": "Registrarse",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "phoneNumber": "Número de Teléfono"
+  },
+  "business": {
+    "name": "Nombre del Negocio",
+    "slug": "URL del Negocio",
+    "description": "Descripción",
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "email": "Correo",
+    "website": "Sitio Web",
+    "logo": "Logo",
+    "slogan": "Eslogan",
+    "registerBusiness": "Registrar Negocio",
+    "businessProfile": "Perfil del Negocio",
+    "updateProfile": "Actualizar Perfil"
+  },
+  "roles": {
+    "client": "Cliente",
+    "employee": "Empleado",
+    "manager": "Gerente",
+    "owner": "Propietario"
+  },
+  "appointments": {
+    "title": "Citas",
+    "bookAppointment": "Reservar Cita",
+    "appointmentCalendar": "Calendario de Citas",
+    "status": {
+      "provisional": "Provisional",
+      "confirmed": "Confirmada",
+      "cancelled": "Cancelada",
+      "completed": "Completada"
+    },
+    "startTime": "Hora de Inicio",
+    "endTime": "Hora de Fin",
+    "notes": "Notas",
+    "clientNotes": "Notas del Cliente",
+    "service": "Servicio"
+  },
+  "employees": {
+    "title": "Empleados",
+    "addEmployee": "Agregar Empleado",
+    "employeeProfile": "Perfil del Empleado",
+    "availability": "Disponibilidad",
+    "portfolio": "Portafolio",
+    "bio": "Biografía",
+    "specialties": "Especialidades",
+    "isActive": "Activo"
+  },
+  "dashboard": {
+    "title": "Panel de Control",
+    "overview": "Resumen",
+    "statistics": "Estadísticas",
+    "recentAppointments": "Citas Recientes",
+    "upcomingAppointments": "Próximas Citas",
+    "welcome": "¡Bienvenido, {name}!",
+    "quickActions": {
+      "calendar": "Ver calendario",
+      "employees": "Gestionar empleados",
+      "profile": "Ver perfil",
+      "settings": "Configuración"
+    },
+    "stats": {
+      "todayAppointments": "Citas de Hoy",
+      "totalEmployees": "Total Empleados",
+      "monthlyRevenue": "Ingresos del Mes",
+      "avgAppointmentTime": "Tiempo Promedio"
+    },
+    "noAppointments": "No hay citas recientes"
+  },
+  "subscription": {
+    "title": "Suscripción",
+    "plans": "Planes",
+    "free": "Gratuito",
+    "premium": "Premium",
+    "upgrade": "Actualizar",
+    "downgrade": "Degradar",
+    "billingHistory": "Historial de Facturación",
+    "paymentMethod": "Método de Pago"
+  },
+  "profile": {
+    "title": "Perfil",
+    "personalInfo": "Información Personal",
+    "contactInfo": "Información de Contacto",
+    "preferences": "Preferencias"
+  },
+  "settings": {
+    "title": "Configuración",
+    "general": "General",
+    "notifications": "Notificaciones",
+    "privacy": "Privacidad"
+  },
+  "favorites": {
+    "title": "Favoritos",
+    "favoriteBusinesses": "Negocios Favoritos",
+    "favoriteEmployees": "Empleados Favoritos",
+    "addToFavorites": "Agregar a Favoritos",
+    "removeFromFavorites": "Quitar de Favoritos"
+  },
+  "hero": {
+    "title": "Gestiona tu negocio con facilidad",
+    "subtitle": "Plataforma multi-tenant para gestión de citas y servicios. Perfecto para barberías, peluquerías, talleres y más.",
+    "getStarted": "Comenzar Gratis",
+    "learnMore": "Saber Más"
+  },
+  "features": {
+    "title": "Características Principales",
+    "subtitle": "Todo lo que necesitas para gestionar tu negocio de servicios",
+    "multiTenant": {
+      "title": "Multi-tenant",
+      "description": "Cada negocio tiene su propio espacio aislado y personalizable"
+    },
+    "roleManagement": {
+      "title": "Gestión de Roles",
+      "description": "Cliente, Empleado, Gerente y Propietario con permisos específicos"
+    },
+    "availability": {
+      "title": "Disponibilidad",
+      "description": "Gestiona horarios y disponibilidad de empleados fácilmente"
+    },
+    "analytics": {
+      "title": "Analíticas",
+      "description": "Dashboard completo con estadísticas y métricas del negocio"
+    },
+    "security": {
+      "title": "Seguridad",
+      "description": "Autenticación segura con Clerk y aislamiento de datos"
+    }
+  },
+  "pricing": {
+    "title": "Planes de Precios",
+    "subtitle": "Elige el plan que mejor se adapte a tu negocio",
+    "free": {
+      "description": "Perfecto para empezar",
+      "features": {
+        "employees": "Hasta 25 empleados",
+        "managers": "Hasta 2 gerentes",
+        "features": "Todas las características principales",
+        "support": "Soporte por email"
+      },
+      "button": "Comenzar Gratis"
+    },
+    "premium": {
+      "description": "Para negocios en crecimiento",
+      "features": {
+        "employees": "Empleados ilimitados",
+        "noAds": "Sin anuncios",
+        "noBranding": "Sin marca BookItNow",
+        "prioritySupport": "Soporte prioritario"
+      },
+      "button": "Actualizar a Premium"
+    }
+  },
+  "footer": {
+    "description": "La plataforma más completa para gestión de citas y servicios",
+    "rights": "Todos los derechos reservados"
+  }
+}
