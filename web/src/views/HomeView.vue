@@ -143,10 +143,11 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useAuthStore } from '@/stores/authStore'
 import { useI18n } from 'vue-i18n'
+import { useClerk } from '@clerk/vue'
 import { 
   CalendarDaysIcon, 
   UsersIcon, 
@@ -159,6 +160,7 @@ import {
 const router = useRouter()
 const authStore = useAuthStore()
 const { t } = useI18n()
+const { openSignIn, openSignUp } = useClerk()
 
 const isAuthenticated = computed(() => authStore.isAuthenticated)
 
@@ -225,16 +227,14 @@ const pricingPlans = [
 ]
 
 const login = () => {
-  // Clerk login logic will be implemented
-  console.log('Login clicked')
+  openSignIn()
 }
 
 const register = () => {
   if (isAuthenticated.value) {
     router.push('/register')
   } else {
-    // Clerk registration logic will be implemented
-    console.log('Register clicked')
+    openSignUp()
   }
 }
 

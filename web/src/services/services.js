@@ -1,13 +1,23 @@
 import apiClient from './api'
 
 export const authService = {
-  async registerBusiness(businessData) {
-    const response = await apiClient.post('/auth/register', businessData)
+  async registerUser() {
+    const response = await apiClient.post('/auth/register')
+    return response.data
+  },
+  
+  async syncUser() {
+    const response = await apiClient.post('/auth/sync')
     return response.data
   },
   
   async getCurrentUser() {
-    const response = await apiClient.get('/users/profile')
+    const response = await apiClient.get('/auth/me')
+    return response.data
+  },
+  
+  async registerBusiness(businessData) {
+    const response = await apiClient.post('/auth/business', businessData)
     return response.data
   },
   

@@ -16,7 +16,7 @@
     "vue": "^3.4.0",
     "vue-router": "^4.2.5",
     "pinia": "^2.1.7",
-    "@clerk/vue": "^1.0.0",
+    "@clerk/vue": "^4.29.0",
     "axios": "^1.6.0",
     "vue-i18n": "^9.8.0",
     "@headlessui/vue": "^1.7.16",

@@ -13,11 +13,21 @@ const apiClient = axios.create({
 
 // Request interceptor to add auth token
 apiClient.interceptors.request.use(
-  (config) => {
+  async (config) => {
     const authStore = useAuthStore()
-    if (authStore.user?.id) {
-      config.headers.Authorization = `Bearer ${authStore.user.id}`
+    
+    // Get Clerk session token
+    if (authStore.clerkUser && authStore.isAuthenticated) {
+      try {
+        const token = await authStore.clerkUser.getToken()
+        if (token) {
+          config.headers.Authorization = `Bearer ${token}`
+        }
+      } catch (error) {
+        console.error('Error getting Clerk token:', error)
+      }
     }
+    
     return config
   },
   (error) => {
@@ -39,4 +49,3 @@ apiClient.interceptors.response.use(
 )
 
 export default apiClient
-

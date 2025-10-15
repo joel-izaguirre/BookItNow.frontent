@@ -26,14 +26,26 @@ const i18n = createI18n({
 // Configure Clerk
 const clerkPublishableKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 
+if (!clerkPublishableKey) {
+  console.error('VITE_CLERK_PUBLISHABLE_KEY is not set')
+}
+
 const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
 app.use(i18n)
-app.use(Clerk, {
-  publishableKey: clerkPublishableKey
-})
+
+// Only configure Clerk if we have a publishable key
+if (clerkPublishableKey) {
+  app.use(Clerk, {
+    publishableKey: clerkPublishableKey,
+    afterSignInUrl: '/dashboard',
+    afterSignUpUrl: '/register',
+    signInUrl: '/',
+    signUpUrl: '/'
+  })
+}
 
 app.mount('#app')
 
