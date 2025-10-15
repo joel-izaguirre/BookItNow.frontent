@@ -36,3 +36,4 @@ app.use(Clerk, {
 })
 
 app.mount('#app')
+

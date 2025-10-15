@@ -77,3 +77,4 @@ export const useTenantStore = defineStore('tenant', () => {
     removeAppointment
   }
 })
+
